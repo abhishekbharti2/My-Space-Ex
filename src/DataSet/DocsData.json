@@ -1,0 +1,81 @@
+[
+  {
+    "id": 1,
+    "name": "Asteroid",
+    "information": "Asteroids are small, rocky or metallic celestial bodies that orbit the Sun, primarily located in the asteroid belt between Mars and Jupiter. They are remnants from the early solar system, remnants that never coalesced into a planet due to the gravitational influence of Jupiter. Asteroids vary greatly in size, from tiny rocks to dwarf planet-sized bodies like Ceres. Studying asteroids provides valuable insights into the composition, history, and evolution of our solar system. Additionally, some asteroids are considered potential threats to Earth due to the possibility of collision, making their tracking and analysis crucial for planetary defense.",
+    "image_link": "https://sm.mashable.com/mashable_in/seo/default/asterpid_bag6.gif"
+  },
+  {
+    "id": 2,
+    "name": "Nebula",
+    "information": "A nebula is an immense cloud of dust, hydrogen, helium, and other ionized gases in space. Nebulae are often considered the birthplaces of stars, as the density within these clouds can lead to gravitational collapse, triggering the formation of new stars and planetary systems. There are several types of nebulae, including emission nebulae, reflection nebulae, dark nebulae, and planetary nebulae, each distinguished by their appearance and the processes occurring within them. For example, the Orion Nebula is a well-known emission nebula that glows brightly due to ionized hydrogen gas. Nebulae also play a critical role in the life cycle of stars, serving as the material reservoir from which stars draw to form new generations of celestial objects.",
+    "image_link": "https://i.pinimg.com/originals/5e/ee/25/5eee253658b397e20ab078ba04515601.gif"
+  },
+  {
+    "id": 3,
+    "name": "Black Hole",
+    "information": "A black hole is an enigmatic region in spacetime where gravity is so intense that nothing—not even light—can escape from it. Black holes are formed from the remnants of massive stars that have undergone gravitational collapse after exhausting their nuclear fuel. The boundary surrounding a black hole is known as the event horizon, beyond which the gravitational pull becomes irresistible. Black holes come in various sizes, from stellar-mass black holes formed by collapsing stars to supermassive black holes found at the centers of galaxies, including our own Milky Way. These supermassive black holes contain millions to billions of times the mass of the Sun and play a crucial role in the dynamics and evolution of galaxies. Recent advancements, such as the Event Horizon Telescope's imaging of the black hole in M87, have provided unprecedented insights into their structure and behavior.",
+    "image_link": "https://www.icegif.com/wp-content/uploads/2023/02/icegif-497.gif"
+  },
+  {
+    "id": 4,
+    "name": "Wormhole",
+    "information": "A wormhole is a hypothetical tunnel-like structure in the fabric of spacetime that connects two separate points, potentially allowing for faster-than-light travel or shortcuts between distant regions of the universe. The concept of wormholes arises from solutions to Einstein's field equations in general relativity, such as the Einstein-Rosen bridge. While wormholes are a fascinating subject in theoretical physics and science fiction, their actual existence remains unproven. Challenges such as stability, traversability, and the requirement of exotic matter with negative energy density make the practical realization of wormholes highly speculative. Nonetheless, wormholes continue to be a topic of interest for physicists exploring the possibilities of space-time manipulation and the fundamental nature of the universe.",
+    "image_link": "https://i.pinimg.com/originals/15/2a/c9/152ac925a89821541f304410fa6e3ee8.gif"
+  },
+  {
+    "id": 5,
+    "name": "Super Nova",
+    "information": "A nova is a powerful and sudden increase in brightness of a star, typically a white dwarf in a binary star system. This dramatic outburst occurs when the white dwarf accretes material, primarily hydrogen, from its companion star. As the accumulated hydrogen undergoes nuclear fusion on the surface of the white dwarf, it triggers a thermonuclear explosion, causing the star to brighten significantly—sometimes by a factor of several thousand—over a short period, such as days or weeks. After the explosion, the star gradually returns to its original brightness over months or years. Novae are important phenomena for astronomers as they help in understanding stellar processes, binary star interactions, and the lifecycle of stars. Some novae have also been used as standard candles to measure astronomical distances.",
+    "image_link": "https://scitechdaily.com/images/Type-Ia-Supernova-1.gif"
+  },
+  {
+    "id": 6,
+    "name": "Quasar",
+    "information": "Quasars, or quasi-stellar objects, are among the most luminous and energetic objects in the universe. They are powered by supermassive black holes at the centers of distant galaxies, where the black hole accretes vast amounts of matter. As the matter spirals into the black hole, it forms an accretion disk that becomes extremely hot and emits enormous amounts of electromagnetic radiation across the spectrum, from radio waves to X-rays. Quasars can outshine their host galaxies and are visible across billions of light-years, making them important probes for studying the early universe, the formation and growth of supermassive black holes, and the intergalactic medium. The study of quasars has also provided insights into the expansion of the universe and the distribution of matter on cosmic scales.",
+    "image_link": "https://i.pinimg.com/originals/63/f9/5d/63f95da8bd8eb186ac62241e8f871799.gif"
+  },
+  {
+    "id": 7,
+    "name": "Solar System",
+    "information": "The Solar System is our local cosmic neighborhood, consisting of the Sun—the central star—and all celestial objects bound to it by gravity. This includes eight officially recognized planets (Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune), their moons, dwarf planets like Pluto, asteroids in the asteroid belt, comets from the Kuiper Belt and Oort Cloud, and countless smaller bodies such as meteoroids and dust particles. The Solar System formed approximately 4.6 billion years ago from the gravitational collapse of a molecular cloud. The interactions between its components, including gravitational forces and orbital dynamics, shape the structure and evolution of the system. Understanding the Solar System provides fundamental insights into planetary science, the potential for life elsewhere, and the broader processes that govern planetary systems throughout the galaxy.",
+    "image_link": "https://i.pinimg.com/originals/15/83/3f/15833f24e37803a0e14eb14713f07a37.gif"
+  },
+  {
+    "id": 8,
+    "name": "Earth",
+    "information": "Earth is the third planet from the Sun and the only known celestial body to support life. With a diameter of about 12,742 kilometers, it has a diverse range of environments, including vast oceans covering approximately 71% of its surface, expansive continents, and intricate atmospheric systems. Earth's atmosphere is composed mainly of nitrogen (78%) and oxygen (21%), with trace amounts of other gases, which are essential for sustaining life. The planet's dynamic geology features plate tectonics, leading to the formation of mountains, earthquakes, and volcanic activity. Earth also has a strong magnetic field generated by its liquid outer core, which protects the planet from harmful solar radiation. The delicate balance of Earth's ecosystems, climate, and geological activity makes it uniquely hospitable, and ongoing scientific research continues to explore its complex systems and the factors that sustain life.",
+    "image_link": "https://cdn.mos.cms.futurecdn.net/oB6gwMbLBDyS35SVrUnTRb.gif"
+  },
+  {
+    "id": 9,
+    "name": "Galaxy",
+    "information": "A galaxy is a vast assembly of stars, stellar remnants, interstellar gas, dust, and dark matter, all bound together by gravity. Galaxies come in various shapes and sizes, primarily classified as spiral, elliptical, or irregular. Spiral galaxies, like the Milky Way, feature rotating disks with spiral arms rich in gas and young stars, a central bulge, and often a surrounding halo of older stars and globular clusters. Elliptical galaxies range from nearly spherical to elongated shapes and typically contain older, redder stars with less interstellar gas, making them less active in star formation. Irregular galaxies lack a distinct shape and often result from gravitational interactions or collisions with other galaxies. Galaxies are the fundamental building blocks of the universe's large-scale structure, with clusters and superclusters comprising millions or even billions of individual galaxies. Studying galaxies helps astronomers understand the formation and evolution of cosmic structures, the distribution of dark matter, and the processes driving star formation and galactic dynamics.",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/4/46/ORC_J2103-6200_2022.gif"
+  },
+  {
+    "id": 10,
+    "name": "Comet",
+    "information": "Comets are icy celestial bodies composed primarily of water ice, frozen gases, dust, and rocky material. They originate from two main regions in the solar system: the Kuiper Belt, beyond Neptune's orbit, and the distant Oort Cloud, which surrounds the solar system at great distances. When a comet's orbit brings it close to the Sun, the heat causes the volatile materials to vaporize, creating a glowing coma (a cloud of gas and dust) and often spectacular tails that stream away from the Sun. The tails can consist of a dust tail, which is pushed by solar radiation pressure, and an ion tail, shaped by the solar wind. Comets are considered remnants from the solar system's formation, preserving pristine materials that provide valuable clues about the early conditions and processes that led to the development of planets and other celestial bodies. Observing comets also helps scientists study the interactions between solar radiation and cometary material.",
+    "image_link": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Comet_and_tail_animation.gif"
+  },
+  {
+    "id": 11,
+    "name": "Neutron Star",
+    "information": "A neutron star is the extremely dense remnant left behind after a massive star undergoes a supernova explosion. Composed almost entirely of neutrons, these stars pack more mass than the Sun into a sphere with a radius of about 10 to 20 kilometers. The density of a neutron star is so high that a single teaspoon of its material would weigh billions of tons on Earth. Neutron stars exhibit intense gravitational and magnetic fields, and many are observed as pulsars—rapidly rotating neutron stars emitting beams of electromagnetic radiation from their magnetic poles. These pulsations can be detected as regular pulses of radio waves, X-rays, or gamma rays as the star spins. Neutron stars provide a unique laboratory for studying matter under extreme conditions, testing the limits of nuclear physics, and exploring the behavior of matter at densities surpassing those of atomic nuclei. Additionally, interactions between neutron stars, such as mergers, are key sources of gravitational waves and heavy element synthesis in the universe.",
+    "image_link": "https://qph.cf2.quoracdn.net/main-qimg-f040e09072a39dca6ce9c8d2bde381c0"
+  },
+  {
+    "id": 12,
+    "name": "Kuiper Belt",
+    "information": "The Kuiper Belt is a vast region of the solar system extending beyond the orbit of Neptune, roughly from 30 to 55 astronomical units (AU) from the Sun. It is populated by a large number of small, icy bodies composed of frozen volatiles such as water, methane, and ammonia, along with rocky and metallic materials. The Kuiper Belt is home to dwarf planets like Pluto, Haumea, and Makemake, as well as countless smaller objects known as Kuiper Belt Objects (KBOs). This region is similar to the asteroid belt but is significantly larger in both size and mass. The Kuiper Belt is believed to be a remnant from the solar system's formation, providing clues about the early processes that shaped planetary orbits and the distribution of materials. Additionally, the Kuiper Belt is the source of short-period comets, which have orbits that bring them into the inner solar system at regular intervals. Exploration of the Kuiper Belt, such as by the New Horizons mission, continues to enhance our understanding of these distant and icy worlds.",
+    "image_link": "https://i.pinimg.com/originals/fc/15/7b/fc157bbf429ba349757072de9ea17ad0.gif"
+  },
+  {
+    "id": 13,
+    "name": "Planet X",
+    "information": "Planet X refers to a hypothetical planet located beyond Neptune in the outer regions of the solar system. The existence of Planet X has been proposed to explain various observed irregularities in the orbits of trans-Neptunian objects (TNOs), suggesting the gravitational influence of an unseen massive body. Over the years, several candidates for Planet X have been suggested, including the recently posited Planet Nine, which is theorized to have a mass approximately ten times that of Earth and an elongated orbit taking it far beyond the Kuiper Belt. Despite extensive searches using telescopes and observational surveys, no definitive evidence for Planet X has been found as of now. The discovery of such a planet would have profound implications for our understanding of solar system dynamics, the distribution of small bodies, and the overall mass balance of the outer solar system. Ongoing research and advanced observational techniques continue to search for Planet X, making it an exciting topic in contemporary astronomy.",
+    "image_link": "https://media.giphy.com/media/bL96SOgf5o8Frj0eHA/giphy.gif"
+  }
+]
+ 
