@@ -138,6 +138,7 @@
 @media (max-width: 1000px) {
   .info-container {
     flex-direction: column;
+    height: max-content;
   }
   .info-container > div {
     width: 100%;
