@@ -10,7 +10,7 @@ export default function Docs() {
   const [loading, setLoading] = useState(true);
 
 useEffect(() =>{
-  document.getElementById('main-image').addEventListener('load', function (){
+  document.getElementById('main-image').addEventListener('load', () => {
     console.log('Image Loaded');
     setLoading(false);
   })
