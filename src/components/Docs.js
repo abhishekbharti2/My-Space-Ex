@@ -7,6 +7,17 @@ export default function Docs() {
   const [bgimage, setimage] = useState(data[0].image_link);
   const [info, setinfo] = useState(data[0].information);
   const [idnumber, setid] = useState(data[0].id);
+  const [loading, setLoading] = useState(true);
+
+useEffect(() =>{
+  document.getElementById('main-image').addEventListener('load', function (){
+    console.log('Image Loaded');
+    setLoading(false);
+  })
+  return () => {
+    document.getElementById('main-image').removeEventListener('load', () =>{})
+  }
+}, []);
 
  function changeNext(){
     data.forEach((element) => {
@@ -15,6 +26,7 @@ export default function Docs() {
         setinfo(element.information);
         setimage(element.image_link);
         setid(element.id);
+        setLoading(true);
         return;
       }
     })
@@ -26,6 +38,7 @@ export default function Docs() {
         setinfo(element.information);
         setimage(element.image_link);
         setid(element.id);
+        setLoading(true);
         return;
       }
     });
@@ -43,6 +56,7 @@ export default function Docs() {
             setinfo(element.information);
             setimage(element.image_link);
             setid(element.id);
+            setLoading(true);
           }
         });
       });
@@ -81,7 +95,10 @@ export default function Docs() {
           <label for="checkbox-2" className='explore-btn' >Explore All</label>
         </div>
         <div className="info-right">
-          <img src={bgimage} className="topic-image" alt="this is topic" />
+          <img src={bgimage} className="topic-image" alt="this is topic" id='main-image' />
+        {
+           loading && <img src="https://boldist.co/wp-content/uploads/2021/04/Loading-Spinners-are-UX-Killers.gif" alt="." id="spinner" />
+        }
           <div className="next-prev">
             <button onClick={changePrev}>&#10094; Prev</button>
             <span>{idnumber}</span>
