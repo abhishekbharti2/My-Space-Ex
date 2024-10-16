@@ -14,9 +14,6 @@ useEffect(() =>{
     console.log('Image Loaded');
     setLoading(false);
   })
-  return () => {
-    document.getElementById('main-image').removeEventListener('load', () =>{})
-  }
 }, []);
 
  function changeNext(){
