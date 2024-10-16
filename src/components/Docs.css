@@ -79,6 +79,12 @@
   width: 60%;
   height: 250px;
 }
+#spinner{
+  width: 400px;
+  height: 250px;
+  position: absolute;
+  margin-bottom: 62px;
+}
 
 .info-heading {
   color: var(--web-color);
@@ -151,7 +157,7 @@
   .info-right {
     order: 1;
   }
-  .topic-image {
+  .topic-image, #spinner {
     width: 80%;
   }
   .info-heading{
