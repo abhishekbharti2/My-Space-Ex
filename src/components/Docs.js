@@ -12,7 +12,7 @@ export default function Docs() {
   function speakNow(){
     speechSynthesis.cancel();
     const msg = new SpeechSynthesisUtterance(info);
-    speech.lang = 'hi-IN';
+    msg.lang = 'hi-IN';
     speechSynthesis.speak(msg);
   }
   
