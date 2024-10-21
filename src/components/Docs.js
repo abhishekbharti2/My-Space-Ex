@@ -9,6 +9,12 @@ export default function Docs() {
   const [idnumber, setid] = useState(data[0].id);
   const [loading, setLoading] = useState(true);
 
+  function speakNow(){
+    speechSynthesis.cancel();
+    const msg = new SpeechSynthesisUtterance(info);
+    speechSynthesis.speak(msg);
+  }
+  
 useEffect(() =>{
   document.getElementById('main-image').addEventListener('load', () => {
     console.log('Image Loaded');
@@ -87,6 +93,7 @@ useEffect(() =>{
             {info}
             <a className="head-button learn-more" href="/">
               Learn More
+              <button className='head-button' onClick={speakNow}> Listen</button>
             </a>
           </p>
           <label for="checkbox-2" className='explore-btn' >Explore All</label>
