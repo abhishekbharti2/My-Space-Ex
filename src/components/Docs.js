@@ -12,6 +12,7 @@ export default function Docs() {
   function speakNow(){
     speechSynthesis.cancel();
     const msg = new SpeechSynthesisUtterance(info);
+    speech.lang = 'hi-IN';
     speechSynthesis.speak(msg);
   }
   
@@ -91,10 +92,10 @@ useEffect(() =>{
           <h3 className="info-heading">{infotitle} Overview</h3>
           <p className="info-paragraph">
             {info}
-            <a className="head-button learn-more" href="/">
-              Learn More
-              <button className='head-button' onClick={speakNow}> Listen</button>
-            </a>
+            <div>
+              <button className = 'head-button learn-more'>Learn More</button>
+              <button className='head-button learn-more' onClick={speakNow}>&#128266; Listen</button>
+            </div>
           </p>
           <label for="checkbox-2" className='explore-btn' >Explore All</label>
         </div>
