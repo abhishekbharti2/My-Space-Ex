@@ -76,7 +76,23 @@ body {
   transition: all .5s;
   border-bottom: 1px solid transparent;
 }
-
+.search-cont>input{
+  width: 100px;
+  height: 25px;
+  outline: none;
+  border: 1px solid rgb(160, 160, 160);
+  background-color: rgb(53, 53, 53);
+  padding: 5px 15px;
+}
+.search-cont>a{
+  background-color: var(--web-color);
+  padding: 10px;
+  text-decoration: none;
+  border: none;
+}
+i{
+  color: white;
+}
 .navbar-link:hover {
   color: var(--web-color);
   border-bottom-color: var(--web-color);
@@ -146,18 +162,22 @@ body {
   }
   .link-container>li:first-of-type {
     transition: margin-left 1s;
+    order: 2;
   }
 
   .link-container>li:nth-child(2) {
     transition: margin-left 1.3s;
+    order: 3;
   }
 
   .link-container>li:nth-child(3) {
     transition: margin-left 1.6s;
+    order: 4;
   }
 
   .link-container>li:nth-child(4) {
     transition: margin-left 1.9s;
+    order: 5;
   }
 
   .link-container li a:hover {
@@ -180,7 +200,19 @@ body {
   #checkbox-1:checked~#label-btn-2 {
     display: block;
   }
-
+  .search-cont{
+    order: 1;
+    margin: 10px 0px;
+  }
+  .link-container::before{
+    content: 'Search In Wikipedia';
+  }
+  .search-cont>input{
+    width: 200px;
+  }
+  .search-cont>a{
+    padding: 10px 20px;
+  }
 }
 
 /* {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{ Navbar Ends - Loading Page Start }}}}}}}}}}}}}}}}}}}}}}}}}}}}}} */
