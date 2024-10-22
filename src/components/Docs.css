@@ -124,6 +124,7 @@
   display: flex;
   flex-wrap: wrap;
   width: 80%;
+  text-align: justify;
 }
 .learn-more {
   margin: 0;
