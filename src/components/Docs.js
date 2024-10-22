@@ -102,7 +102,10 @@ useEffect(() =>{
         <div className="info-right">
           <img src={bgimage} className="topic-image" alt="this is topic" id='main-image' />
         {
-           loading && <img src="https://boldist.co/wp-content/uploads/2021/04/Loading-Spinners-are-UX-Killers.gif" alt="." id="spinner" />
+           loading && <div id="spinner">
+              <span></span>
+              Loading Image
+             </div>
         }
           <div className="next-prev">
             <button onClick={changePrev}>&#10094; Prev</button>
