@@ -106,6 +106,7 @@
   margin: 0;
   text-decoration: none;
   margin-top: 20px;
+  margin-right: 10px;
 }
 .next-prev {
   display: flex;
